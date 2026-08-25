@@ -1,7 +1,4 @@
-/* =========================================
-   BANTENTRIP
-   OCEAN • EARTH • SOFT BLACK
-   ========================================= */
+/* Warna website (banten trip) */
 
 :root {
     --ocean: #087ea4;
@@ -29,10 +26,7 @@
 }
 
 
-/* =========================================
-   RESET
-   ========================================= */
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -65,11 +59,7 @@ a {
 }
 
 
-/* =========================================
-   NAVBAR
-   HITAM HANYA TIPIS
-   ========================================= */
-
+/* Navigasi bar */
 .navbar {
     position: fixed;
     top: 0;
@@ -78,10 +68,6 @@ a {
     width: 100%;
     z-index: 999;
 
-    /*
-      Hitam hanya sedikit,
-      warna biru laut tetap dominan
-    */
     background:
         linear-gradient(
             90deg,
@@ -163,12 +149,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   HERO
-   BIRU LAUT DOMINAN
-   HITAM HANYA GRADASI TIPIS
-   ========================================= */
-
+/* Class hero(beranda) */
 .hero {
     min-height: 680px;
 
@@ -256,10 +237,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   BUTTON
-   ========================================= */
-
+/* Class button(beranda) */
 .button {
     display: inline-block;
 
@@ -308,9 +286,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   SECTION
-   ========================================= */
+/* Section */
 
 .section {
     padding: 90px 0;
@@ -351,10 +327,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   CARD WISATA
-   ========================================= */
-
+/* Class cards(wisata)*/
 .cards {
     display: grid;
 
@@ -430,10 +403,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   ABOUT
-   ========================================= */
-
+/* Class about(tentang wisata)*/
 .about {
     background: linear-gradient(
         to bottom,
@@ -463,10 +433,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   ABOUT PAGE
-   ========================================= */
-
+/* Class about "page" */
 .about-page {
     padding: 150px 0 90px;
 
@@ -507,12 +474,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================
-   CONTACT
-   BIRU LAUT + HIJAU
-   HITAM HANYA SEDIKIT
-   ========================================= */
-
+/*Class contact(pusat informasi)*/
 .contact {
     background:
         linear-gradient(
@@ -543,10 +505,7 @@ nav a:hover::after {
 }
 
 
-/* ==============================
-   INFORMASI
-   ============================== */
-
+/* Class contact(pusat informasi) */
 .contact {
     background: linear-gradient(
         to bottom,
@@ -598,10 +557,7 @@ nav a:hover::after {
 }
 
 
-/* =========================================================
-   FOOTER - HITAM
-   ========================================================= */
-
+/* Class footer */
 footer {
     background: #000000;
 
@@ -637,10 +593,7 @@ footer a:hover {
 }
 
 
-/* =========================================
-   SCROLLBAR
-   ========================================= */
-
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -660,10 +613,7 @@ footer a:hover {
 }
 
 
-/* =========================================
-   ANIMATION
-   ========================================= */
-
+/* Animasi */
 @keyframes fadeUp {
 
     from {
@@ -679,10 +629,7 @@ footer a:hover {
 }
 
 
-/* =========================================
-   TABLET
-   ========================================= */
-
+/* Tampilan Tablet, Ipad */
 @media (max-width: 900px) {
 
     .cards {
@@ -708,10 +655,7 @@ footer a:hover {
 }
 
 
-/* =========================================
-   MOBILE
-   ========================================= */
-
+/*  Tampilan mobile(hp (android,ios)) */
 @media (max-width: 650px) {
 
     .nav-inner {
